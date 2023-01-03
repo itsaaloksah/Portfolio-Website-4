@@ -124,6 +124,7 @@
     
 })(jQuery);
 
+//page counter
 function websiteVisits(response) {
     document.querySelector("#visits").textContent = response.value;
 }
